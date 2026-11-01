@@ -33,6 +33,12 @@ h3 {
   line-height: 1.2;
 }
 
+h1,
+h2,
+h3 {
+  color: #3b2418;
+}
+
 #hero p {
   font-family: system-ui;
   font-size: 1.125rem;
@@ -41,6 +47,7 @@ h3 {
 
 header h1 {
   margin: 0 0 8px;
+  color: #ffffff;
 }
 
 nav ul {
@@ -51,6 +58,18 @@ nav ul {
 
 nav a {
   color: #ffffff;
+}
+
+a {
+  color: #8c1010;
+}
+
+a:hover {
+  color: #5e0a0a;
+}
+
+.pris {
+  color: #8c1010;
 }
 
 main {
@@ -91,7 +110,7 @@ article img,
 footer {
   background-color: #2b1c14;
   color: #ffffff;
-  padding: 24px;
+  padding: 16px 24px;
 }
 
 footer a {
