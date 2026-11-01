@@ -69,7 +69,7 @@ a {
 }
 
 a:hover {
-  color: #5e0a0a;
+  color: #ffd166;
 }
 
 .pris {
@@ -109,6 +109,11 @@ article img,
   border: 0;
   border-radius: 6px;
   text-decoration: none;
+}
+
+.knapp:hover {
+  background-color: #6f0c0c;
+  color: #ffffff;
 }
 
 footer {
@@ -151,5 +156,19 @@ Kontrastkontroll:
 Brödtext #222222 mot Bakgrund #fffaf3: 15.31:1
 Knapptext #ffffff mot den röda knappen #8c1010: 9,55:1.
 Länkfärg #8c1010 mot bakgrunden #fffaf3: 9,2:1.
-Alla tre färgpar klarar kravet på minst 4,5:1.
+Vit text #ffffff mot #5b3a29: 10,08:1
+Vit text #ffffff mot #2b1c14: 16,42:1
+Mörkröd hover #5e0a0a mot brunt sidhuvud #5b3a29: 1,37:1
+Mörkröd hover #5e0a0a mot mörkbrun sidfot #2b1c14: 1,19:1
+
+Specifikationens hover-färg klarar inte kravet på
+minst 4,5:1 mot sidhuvudets och sidfotens bakgrunder.
+
+Jag ändrade länkarnas hover-färg till ljusgul #ffd166
+eftersom den angivna mörkröda färgen hade för låg kontrast.
+
+Ny hover #ffd166 mot sidhuvud #5b3a29: 6,99:1.
+Ny hover #ffd166 mot sidfot #2b1c14: 11,39:1.
+Båda klarar kravet på minst 4,5:1.
+
 */
