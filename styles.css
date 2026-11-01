@@ -121,6 +121,21 @@ address {
   font-style: normal;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+input,
+select,
+textarea {
+  border: 2px solid #8a7a6a;
+}
+
 /*
 Kontrastkontroll:
 Brödtext #222222 mot Bakgrund #fffaf3: 15.31:1
