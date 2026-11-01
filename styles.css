@@ -120,3 +120,11 @@ footer a {
 address {
   font-style: normal;
 }
+
+/*
+Kontrastkontroll:
+Brödtext #222222 mot Bakgrund #fffaf3: 15.31:1
+Knapptext #ffffff mot den röda knappen #8c1010: 9,55:1.
+Länkfärg #8c1010 mot bakgrunden #fffaf3: 9,2:1.
+Alla tre färgpar klarar kravet på minst 4,5:1.
+*/
